@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Me </title>
+</head>
+<body>
+    <h1>Contact Information</h1>
+    <p>You can reach me at:</p>
+    <ul>
+        <li>Telephone: +27-69-209-4449</li>
+        <li>Fax: +27-86-561-8058</li>
+        <li>E-mail:<a href="mailto:mahlonoko.tshepo@gmail.com">mahlonoko.tshepo@gmail.com</a></li>
+    </ul>
+    <form action="mailto:mahlonoko.tshepo@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing="10">
+            <tr>
+                <td><label for="name">Your name: </label></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Your email: </label></td>
+                <td><input type="email" name="yourEmail"></td>   
+            </tr>
+            <tr>
+                <td><label for="tel" id="tel" name="tel">Telephone: </label></td>
+                <td><input type="tel" name="yourTelephone"></td>
+            </tr>
+            <tr>
+                <td><label for="message">Your message: </label></td>
+                <td><textarea name="yourMessage" id="text" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+    <a href="index.html">Home</a>
+</body>
+</html>
